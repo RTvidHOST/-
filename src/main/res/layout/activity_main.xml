@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/aarl"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/aarl"
+        android:onClick="aarlInfo"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/aksi"
+        android:onClick="aksiInfo"
+        android:textSize="50dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/igni"
+        android:onClick="igniInfo"
+        android:textSize="50dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/irden"
+        android:onClick="irdenInfo"
+        android:textSize="50dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/qwen"
+        android:onClick="qwenInfo"
+        android:textSize="50dp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
